@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+:root {
+    --color-primary: #313131;
+    --color-primary-rgb: 49, 49, 49;
+    --color-primary-contrast: #ffffff;
+    --color-primary-contrast-rgb: 255, 255, 255;
+    --color-primary-shade: #2b2b2b;
+    --color-primary-tint: #464646;
+    --color-secondary: #5c4a81;
+    --color-secondary-rgb: 92, 74, 129;
+    --color-secondary-contrast: #ffffff;
+    --color-secondary-contrast-rgb: 255, 255, 255;
+    --color-secondary-shade: #514172;
+    --color-secondary-tint: #6c5c8e;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+    --color-primary: #d8baff;
+    --color-primary-rgb: 216, 186, 255;
+    --color-primary-contrast: #000000;
+    --color-primary-contrast-rgb: 0, 0, 0;
+    --color-primary-shade: #bea4e0;
+    --color-primary-tint: #dcc1ff;
+    --color-secondary: #c3baff;
+    --color-secondary-rgb: 195, 186, 255;
+    --color-secondary-contrast: #000000;
+    --color-secondary-contrast-rgb: 0, 0, 0;
+    --color-secondary-shade: #aca4e0;
+    --color-secondary-tint: #c9c1ff;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.outline_text {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 4.0rem;
+    -webkit-text-stroke-color: var(--color-primary-contrast);
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.multiline {
+    white-space: pre-wrap;
+}
+
+.comment_text {
+    color: #999;
+    font-size: 1.6rem;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 5rem;
+    }
+}

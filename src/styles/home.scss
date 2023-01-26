@@ -1,0 +1,48 @@
+.home__container {
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.home__container-lg {
+    display: none;
+}
+.home__wave {
+    display: inline;
+    font-size: 2rem;
+    transform: rotate(-5deg);
+    margin-bottom: 1.8rem;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+}
+
+.home__paragraph{
+    display: inline;
+}
+
+@media (min-width: 1024px) {
+    .container__home-container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    .home__container-lg {
+        width: 40vw;
+        height: 100vh;
+        background-color: var(--color-secondary);
+        display: flex;
+    }
+
+    .home__container{
+        transform: translateY(-2rem);
+        width: 60vw;
+        padding-inline: 10rem;
+        display: flex;
+    }
+    .home__img {
+        transform: scale(.90);
+    }
+}

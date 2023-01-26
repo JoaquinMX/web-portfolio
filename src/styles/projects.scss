@@ -1,0 +1,32 @@
+.projects__container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.projects__title{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.projects__paragraph {
+    text-align: center;
+    margin-block: 2rem;
+}
+.device__container{
+    transform: scale(1);
+    display: flex;
+    justify-content: center;
+}
+
+.comment_text__projects{
+    margin: 10px 0;
+}
+
+@media (min-width: 1024px) {
+    .projects__container {
+        width: 60vw;
+    }
+    .comment_text{
+        text-align: center;
+    }
+}
