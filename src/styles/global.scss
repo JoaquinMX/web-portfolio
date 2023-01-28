@@ -4,6 +4,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scrollbar-color: var(--color-primary) var(--color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    border: 0;
+    background-color: var(--color-primary);
+}
+::-webkit-scrollbar-track {
 }
 
 html {
@@ -79,6 +92,12 @@ p {
 
 .hide {
     display: none;
+}
+
+.TheAbsolutePositionOhYeah{
+    position: sticky;
+    top: 0;
+    bottom: 0;
 }
 
 @media (min-width: 1024px) {

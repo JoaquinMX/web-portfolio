@@ -6,7 +6,7 @@ import MacWindow from '../components/macWindow/MacWindow';
 import { projects } from '../data/projects';
 import '../styles/ProjectDetails.scss';
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
-  import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
+import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 
 const ProjectDetails = () => {
   const { id } = useParams();

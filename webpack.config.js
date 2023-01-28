@@ -7,11 +7,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: '/'
+    publicPath: "/",
   },
   mode: "development",
   resolve: {
     extensions: [".js", ".jsx"],
+    alias: {
+      "@assets": path.resolve(__dirname, "src/assets/"),
+      "@styles": path.resolve(__dirname, "src/styles/"),
+      "@icons": path.resolve(__dirname, "src/assets/icons/"),
+      "@images": path.resolve(__dirname, "src/assets/imgs/"),
+    },
   },
   module: {
     rules: [
@@ -34,14 +40,10 @@ module.exports = {
         test: /\.css|\.s[ac]ss$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
-      // {
-      //   test: /\.[css|s[ac]ss]$/i,
-      //   use: [
-      //     "style-loader",
-      //     "css-loader",
-      //     "sass-loader"
-      //   ],
-      // }
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        type: "asset",
+      },
     ],
   },
   plugins: [
@@ -58,7 +60,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
-    allowedHosts: path.join(__dirname, 'dist'),
+    allowedHosts: path.join(__dirname, "dist"),
     compress: true,
     port: 3000,
   },
