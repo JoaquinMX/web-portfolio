@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     // align-items: center;
-    background-color: var(--color-secondary);
+    background: rgb(49, 49, 49);
+    background: linear-gradient(180deg, rgba(49, 49, 49, 1) 60%, rgba(92, 74, 129, 1) 100%);
     height: 100vh;
     font-size: 1.8rem;
 }
@@ -15,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-primary);
     padding: 2.5rem;
     // border-radius: 5rem;
     border-radius: 0 0 5rem 5rem;
@@ -33,9 +33,8 @@
 }
 
 .social_media_button__wrapper__contact {
-    bottom: calc(25vh - 5rem);
-    position: absolute;
-    margin-left: 5vw;
+    bottom: calc(10vh - 5rem);
+    position: relative;
 }
 
 .contact__image {
@@ -50,5 +49,6 @@
 @media(min-width:768px) {
     .third_inner_contact__container {
         max-height: 70%;
+        height: 70%;
     }
 }

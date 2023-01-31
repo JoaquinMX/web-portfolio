@@ -24,7 +24,7 @@ const Contact = () => {
               alt=""
             />
           </div>
-          {/* <div
+          <div
             className="social_media_button__wrapper__contact"
             style={{ display: "flex", justifyContent: "center" }}
           >
@@ -40,7 +40,7 @@ const Contact = () => {
                 LinkedIn
               </AwesomeButtonSocial>
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

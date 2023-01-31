@@ -21,10 +21,17 @@ const Projects = () => {
     "React.js",
     "Angular",
     "Flutter",
+    "HTML",
+    "JavaScript",
+    "TypeScript",
     "Android",
     "Firebase",
     "MongoDB",
+    "PostgreSQL",
+    "Node.js",
     "Unity",
+    "Responsive Design",
+    "UI/UX Design"
   ];
   /**
    * @type {ProjectCard[]}

@@ -17,6 +17,7 @@ module.exports = {
       "@styles": path.resolve(__dirname, "src/styles/"),
       "@icons": path.resolve(__dirname, "src/assets/icons/"),
       "@images": path.resolve(__dirname, "src/assets/imgs/"),
+      "@videos": path.resolve(__dirname, "src/assets/videos/"),
     },
   },
   module: {
@@ -41,7 +42,7 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|jp(e*)g|svg|gif)$/,
+        test: /\.(png|jp(e*)g|svg|gif|mp4)$/,
         type: "asset",
       },
     ],

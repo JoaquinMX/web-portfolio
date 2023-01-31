@@ -7,7 +7,7 @@ const FilterButton = ({text}) => {
 
   return (
     <>
-        <li className="projects__filter_button" onClick={(e) => {console.log(e.target.innerText);setFilter(e.target.innerText)}}>{text}</li>
+        <li className="projects__filter_button" onClick={(e) => {setFilter(e.target.innerText)}}>{text}</li>
     </>
   );
 };
