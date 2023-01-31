@@ -8,9 +8,10 @@ import './Showcase.scss';
  */
 const Showcase = ({projects}) => {
   const { state } = useContext(AppContext);
+  const reversedProjects = [...projects].reverse();
   return (
     <div className='showcase__container'>
-        {projects.map((project) => {
+        {reversedProjects.map((project) => {
           if (
             project.technologies
               .map((data) => {return data.toLocaleUpperCase()})

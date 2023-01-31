@@ -1,5 +1,5 @@
 import React from 'react';
-import { AwesomeButtonSocial } from "react-awesome-button";
+import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import logo from "@icons/svg1024logo.svg";
@@ -24,7 +24,7 @@ const Contact = () => {
               alt=""
             />
           </div>
-          {/* <div
+          <div
             className="social_media_button__wrapper__contact"
             style={{ display: "flex", justifyContent: "center" }}
           >
@@ -33,14 +33,14 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AwesomeButtonSocial
+              <AwesomeButton
                 type={"linkedin"}
                 cssModule={AwesomeButtonStyles}
               >
                 LinkedIn
-              </AwesomeButtonSocial>
+              </AwesomeButton>
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
