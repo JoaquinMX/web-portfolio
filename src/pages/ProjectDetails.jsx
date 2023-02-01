@@ -22,9 +22,9 @@ const ProjectDetails = () => {
   const images = importAll(
     require.context("@images", false, /\.(png|jpe?g|svg)$/)
   );
-  const videos = importAll(
-    require.context("@videos", false, /\.(mp4|webm|mpeg)$/)
-  );
+  // const videos = importAll(
+  //   require.context("@videos", false, /\.(mp4|webm|mpeg)$/)
+  // );
   const { id } = useParams();
   let isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
   return (

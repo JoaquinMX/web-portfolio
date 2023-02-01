@@ -26,7 +26,7 @@ export const projects = [
       "spaceman__movement.png",
       "spaceman__fall.png",
     ],
-    github: "",
+    github: "https://github.com/JoaquinMX/spaceman",
     links: [],
   },
   {
@@ -63,7 +63,8 @@ export const projects = [
       "cross_intersection_simulation__6.jpg",
       "cross_intersection_simulation__7.jpg",
     ],
-    github: "",
+    github:
+      "https://github.com/JoaquinMX/Urban_Traffic_Simulation__Cross_Intersection",
     links: [],
   },
   {
@@ -195,6 +196,40 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Tequila Town Website",
+    client: "Tequila Town",
+    brief:
+      "Landing page for Tequila Town, the first play-to-earn/learn NFT game that gives players a virtual experience in the Tequila production process. ",
+    contributions: [
+      "Created the first version of the landing page, including sections for home, field, distillery, cantina, white paper, and FAQs in a work week.",
+    ],
+    notes: [
+      "The game is divided into 3 separate Game Areas each representing a different part of the Tequila production process: fields, distillery, and bar.",
+      "Each area contains different mechanics, NFTs, and games.",
+      "The NFTs in the game are backed by their own unique physical asset, such as a bottle of Tequila, a real aging Tequila cask, and agaves.",
+    ],
+    technologies: ["All", "Front-End", "React.js"],
+    isMobile: false,
+    videos: [],
+    cover: "",
+    images: [
+      "tequila_town__home.jpeg",
+      "tequila_town__field.jpeg",
+      "tequila_town__distillery.jpeg",
+      "tequila_town__cantina.jpeg",
+      "tequila_town__white_paper.jpeg",
+      "tequila_town__art.jpeg",
+    ],
+    github: "",
+    links: [
+      {
+        name: "Website",
+        link: "http://tequilatown.io/",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "Valley",
     client: "CEMEX",
     brief:
@@ -245,7 +280,7 @@ export const projects = [
     links: [],
   },
   {
-    id: 6,
+    id: 7,
     title: "Rufino App",
     client: "El Patronato del Parque Rufino Tamayo",
     brief:
@@ -292,7 +327,7 @@ export const projects = [
     links: [],
   },
   {
-    id: 7,
+    id: 8,
     title: "Questions",
     client: "Wizeline",
     brief:
@@ -320,6 +355,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "UI/UX Design",
     ],
     isMobile: false,
     videos: [],
@@ -334,7 +370,92 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
+    title: "SaleVale",
+    client: "Softtek",
+    brief:
+      "An application designed to help users manage their credit line, cuts, and requests with real-time information and tools.",
+    contributions: [
+      "Developed the different sections of the application",
+      "Incorporated Firebase as the back-end and authentication",
+      "Created reusable widgets for future projects",
+    ],
+    notes: [
+      "Worked with GitFlow",
+      "Daily progress meetings with the team",
+      "Designed the database model",
+    ],
+    technologies: [
+      "All",
+      "Mobile",
+      "Front-end",
+      "Back-End",
+      "Flutter",
+      "Firebase",
+    ],
+    isMobile: true,
+    videos: [],
+    cover: "salevale__cover.jpg",
+    images: [
+      "salevale__home.jpg",
+      "salevale__home__modal.jpg",
+      "salevale__mi_cobranza.jpg",
+      "salevale__contactos.jpg",
+      "salevale__mi_lista_negra.jpg",
+      "salevale__corte.jpg",
+      "salevale__mis_vales.jpg",
+      "salevale__mis_vales_rechazado.jpg",
+      "salevale__mis_vales_aceptado.jpg",
+      "salevale__calendario.jpg",
+      "salevale__mensajes.jpg",
+      "salevale__mis_solicitudes.jpg",
+      "salevale__configuracion.jpg",
+      "salevale__perfil.jpg",
+      "salevale__login.jpg",
+    ],
+    github: "",
+    links: [],
+  },
+  {
+    id: 10,
+    title: "BanorTec UI Replicate",
+    client: "Softtek",
+    brief:
+      "The BanorTec UI Replicate project was a challenge to replicate the interface of the BanorTec application with the aim of checking the speed of development with reusable code from the SaleVale project.",
+    contributions: [
+      "Developed the main sections of the app",
+      "Created reusable components for future projects",
+      "Conceived a database model",
+    ],
+    notes: [
+      "Iterated quickly over prototypes with the Product Owner",
+      "Had daily meetings to show progress",
+      "Designed components with the idea of atomic design for reuse",
+    ],
+    technologies: [
+      "All",
+      "Mobile",
+      "Front-end",
+      "Flutter",
+      "UI/UX Design",
+      "BLoC Architecture",
+    ],
+    isMobile: true,
+    videos: [],
+    cover: "banortec__cover.jpg",
+    images: [
+      "banortec__home.jpg",
+      "banortec__movimientos.jpg",
+      "banortec__egresos.jpg",
+      "banortec__contactos.jpg",
+      "banortec__login.jpg",
+      "banortec__soporte.jpg",
+    ],
+    github: "",
+    links: [],
+  },
+  {
+    id: 11,
     title: "La Entrevista",
     client: "Save the Children",
     brief:
@@ -379,7 +500,7 @@ export const projects = [
     links: [],
   },
   {
-    id: 9,
+    id: 12,
     title: "Sostek",
     client: "Tecnológico de Monterrey (Novus Project)",
     brief:
@@ -406,6 +527,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "UI/UX Design",
     ],
     isMobile: true,
     videos: [],
