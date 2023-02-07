@@ -17,6 +17,7 @@ export const projects = [
     ],
     technologies: ["All", "Videogames", "Unity", "C#"],
     isMobile: false,
+    directlyMobileImage: false,
     videos: [],
     images: [
       "spaceman__start.png",
@@ -53,6 +54,7 @@ export const projects = [
       "Agent-based Modeling",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: [],
     images: [
       "cross_intersection_simulation__1.jpg",
@@ -96,6 +98,7 @@ export const projects = [
       "UI/UX Design",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: [],
     images: [
       "vitabook__home.jpg",
@@ -137,6 +140,7 @@ export const projects = [
       "CSS",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: ["EcoFriends_VideoDemoLink.mp4"],
     images: ["EcoFriends_1.png", "EcoFriends_2.jpg", "EcoFriends_3.png"],
     github: "https://github.com/Adub17030/TreeHacks_22_NoWasteFood",
@@ -178,6 +182,7 @@ export const projects = [
       "CSS",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: [],
     images: [
       "blue_alert__home.jpeg",
@@ -211,6 +216,7 @@ export const projects = [
     technologies: ["All", "Front-End", "React.js"],
     isMobile: false,
     videos: [],
+    directlyMobileImage: false,
     cover: "",
     images: [
       "tequila_town__home.jpeg",
@@ -260,6 +266,7 @@ export const projects = [
       "JavaScript",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: [],
     cover: "cemex_valley__game_home.jpg",
     images: [
@@ -307,6 +314,7 @@ export const projects = [
       "UI/UX Design",
     ],
     isMobile: true,
+    directlyMobileImage: true,
     videos: ["RufinoTamayoApp.mp4"],
     cover: "rufino_tamayo__cover.png",
     images: [
@@ -394,6 +402,7 @@ export const projects = [
       "Firebase",
     ],
     isMobile: true,
+    directlyMobileImage: true,
     videos: [],
     cover: "salevale__cover.jpg",
     images: [
@@ -441,6 +450,7 @@ export const projects = [
       "BLoC Architecture",
     ],
     isMobile: true,
+    directlyMobileImage: true,
     videos: [],
     cover: "banortec__cover.jpg",
     images: [
@@ -456,6 +466,41 @@ export const projects = [
   },
   {
     id: 11,
+    title: "Favorite Places",
+    client: "",
+    brief:
+      "A social media application for Android and iOS, Favorite Places allows users to share pictures of their favorite places with a description, with the ability to take photos directly on the app, check their own publications and like others users' posts.",
+    contributions: [
+      "Create an scalable multiplatform application.",
+      "Users can register and log-in in the application.",
+      "Users can upload their photos and share them with others users and like them.",
+    ],
+    notes: [
+      "Uses hardware control for taking photos",
+      "BLoC + Clean Architecture pattern",
+      "Uploads photos to Firebase Storage",
+    ],
+    technologies: [
+      "All",
+      "Flutter",
+      "Firebase",
+      "Google Authentication",
+      "Realtime database cloud firestore",
+    ],
+    isMobile: true,
+    videos: [],
+    cover: "favorite_places__cover.jpg",
+    images: [
+      "favorite_places__add_place.jpeg",
+      "favorite_places__home.jpeg",
+      "favorite_places__profile.jpeg",
+      "favorite_places__login.jpeg",
+    ],
+    github: "",
+    links: [],
+  },
+  {
+    id: 12,
     title: "La Entrevista",
     client: "Save the Children",
     brief:
@@ -480,6 +525,7 @@ export const projects = [
       "Unity",
     ],
     isMobile: false,
+    directlyMobileImage: false,
     videos: ["LaEntrevistaGame__demo.mp4"],
     cover: "la_entrevista__cover.jpeg",
     images: [
@@ -500,7 +546,7 @@ export const projects = [
     links: [],
   },
   {
-    id: 12,
+    id: 13,
     title: "Sostek",
     client: "Tecnológico de Monterrey (Novus Project)",
     brief:
@@ -530,6 +576,7 @@ export const projects = [
       "UI/UX Design",
     ],
     isMobile: true,
+    directlyMobileImage: false,
     videos: [],
     cover: "sostek_cover.jpg",
     images: [

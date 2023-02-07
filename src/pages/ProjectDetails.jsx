@@ -59,35 +59,67 @@ const ProjectDetails = () => {
         <div
           className={isMobile ? "hide" : "desktop__device__container__phone"}
         >
-          <div className="device device-iphone-8 device-spacegray">
-            <div className="device-frame">
-              <AutoplaySlider
-                style={{
-                  height: "100%",
-                  width: "100%",
-                }}
-                play={true}
-                cancelOnInteraction={true}
-                interval={6000}
-                bullets={false}
-              >
-                {projects[id].images.map((image) => {
-                  return (
-                    <div
-                      className="projects_details__mobile"
-                      data-src={`${images[image]}`}
-                    />
-                  );
-                })}
-              </AutoplaySlider>
+          {projects[id].directlyMobileImage ? (
+            <div className="device device-google-pixel-6-pro">
+              <div className="device-frame">
+                <AutoplaySlider
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                  }}
+                  play={true}
+                  cancelOnInteraction={true}
+                  interval={6000}
+                  bullets={false}
+                >
+                  {projects[id].images.map((image) => {
+                    return (
+                      <div
+                        className="projects_details__mobile"
+                        data-src={`${images[image]}`}
+                      />
+                    );
+                  })}
+                </AutoplaySlider>
+              </div>
+              <div className="device-stripe"></div>
+              <div className="device-header"></div>
+              <div className="device-sensors"></div>
+              <div className="device-btns"></div>
+              <div className="device-power"></div>
+              <div className="device-home"></div>
             </div>
-            <div className="device-stripe"></div>
-            <div className="device-header"></div>
-            <div className="device-sensors"></div>
-            <div className="device-btns"></div>
-            <div className="device-power"></div>
-            <div className="device-home"></div>
-          </div>
+          ) : (
+            <div className="device device-iphone-8 device-spacegray">
+              <div className="device-frame">
+                <AutoplaySlider
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                  }}
+                  play={true}
+                  cancelOnInteraction={true}
+                  interval={6000}
+                  bullets={false}
+                >
+                  {projects[id].images.map((image) => {
+                    return (
+                      <div
+                        className="projects_details__mobile"
+                        data-src={`${images[image]}`}
+                      />
+                    );
+                  })}
+                </AutoplaySlider>
+              </div>
+              <div className="device-stripe"></div>
+              <div className="device-header"></div>
+              <div className="device-sensors"></div>
+              <div className="device-btns"></div>
+              <div className="device-power"></div>
+              <div className="device-home"></div>
+            </div>
+          )}
         </div>
       ) : (
         <div className={isMobile ? "hide" : "desktop__device__container"}>
@@ -114,41 +146,69 @@ const ProjectDetails = () => {
       )}
       {projects[id].isMobile ? (
         <div
-          className={
-            isMobile
-              ? "desktop__device__container__phone"
-              : "hide"
-          }
+          className={isMobile ? "desktop__device__container__phone" : "hide"}
         >
-          <div className="device device-iphone-8 device-spacegray">
-            <div className="device-frame">
-              <AutoplaySlider
-                style={{
-                  height: "100%",
-                  width: "100%",
-                }}
-                play={true}
-                cancelOnInteraction={true}
-                interval={6000}
-                bullets={false}
-              >
-                {projects[id].images.map((image) => {
-                  return (
-                    <div
-                      className="projects_details__mobile"
-                      data-src={`${images[image]}`}
-                    />
-                  );
-                })}
-              </AutoplaySlider>
+          {projects[id].directlyMobileImage ? (
+            <div className="device device-google-pixel-6-pro">
+              <div className="device-frame">
+                <AutoplaySlider
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                  }}
+                  play={true}
+                  cancelOnInteraction={true}
+                  interval={6000}
+                  bullets={false}
+                >
+                  {projects[id].images.map((image) => {
+                    return (
+                      <div
+                        className="projects_details__mobile"
+                        data-src={`${images[image]}`}
+                      />
+                    );
+                  })}
+                </AutoplaySlider>
+              </div>
+              <div className="device-stripe"></div>
+              <div className="device-header"></div>
+              <div className="device-sensors"></div>
+              <div className="device-btns"></div>
+              <div className="device-power"></div>
+              <div className="device-home"></div>
             </div>
-            <div className="device-stripe"></div>
-            <div className="device-header"></div>
-            <div className="device-sensors"></div>
-            <div className="device-btns"></div>
-            <div className="device-power"></div>
-            <div className="device-home"></div>
-          </div>
+          ) : (
+            <div className="device device-iphone-8 device-spacegray">
+              <div className="device-frame">
+                <AutoplaySlider
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                  }}
+                  play={true}
+                  cancelOnInteraction={true}
+                  interval={6000}
+                  bullets={false}
+                >
+                  {projects[id].images.map((image) => {
+                    return (
+                      <div
+                        className="projects_details__mobile"
+                        data-src={`${images[image]}`}
+                      />
+                    );
+                  })}
+                </AutoplaySlider>
+              </div>
+              <div className="device-stripe"></div>
+              <div className="device-header"></div>
+              <div className="device-sensors"></div>
+              <div className="device-btns"></div>
+              <div className="device-power"></div>
+              <div className="device-home"></div>
+            </div>
+          )}
         </div>
       ) : (
         <div className={isMobile ? "mobile__device__container" : "hide"}>

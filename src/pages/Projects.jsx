@@ -39,10 +39,10 @@ const Projects = () => {
   
   return (
     <div className="projects__container">
-      <h1 className="projects__title">Web Developer Portfolio</h1>
+      <h1 className="projects__title">Showcase</h1>
       <p className="projects__paragraph">
         From web components to entire applications. Check out my latest software
-        development portfolio projects.
+        development projects.
       </p>
       <FilterProjects textArray={textArray} />
       <p className="comment_text comment_text__projects">

@@ -52,3 +52,9 @@
         height: 70%;
     }
 }
+
+@media(min-width: 1024px) {
+    .inner_contact__container {
+        border-radius: 0 0 20rem 20rem;
+    }
+}
