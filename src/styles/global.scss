@@ -41,18 +41,30 @@ html {
 
 @media (prefers-color-scheme: light) {
     :root {
-    --color-primary: #d8baff;
-    --color-primary-rgb: 216, 186, 255;
-    --color-primary-contrast: #000000;
-    --color-primary-contrast-rgb: 0, 0, 0;
-    --color-primary-shade: #bea4e0;
-    --color-primary-tint: #dcc1ff;
-    --color-secondary: #c3baff;
-    --color-secondary-rgb: 195, 186, 255;
-    --color-secondary-contrast: #000000;
-    --color-secondary-contrast-rgb: 0, 0, 0;
-    --color-secondary-shade: #aca4e0;
-    --color-secondary-tint: #c9c1ff;
+    // --color-primary: #d8baff;
+    // --color-primary-rgb: 216, 186, 255;
+    // --color-primary-contrast: #000000;
+    // --color-primary-contrast-rgb: 0, 0, 0;
+    // --color-primary-shade: #bea4e0;
+    // --color-primary-tint: #dcc1ff;
+    // --color-secondary: #c3baff;
+    // --color-secondary-rgb: 195, 186, 255;
+    // --color-secondary-contrast: #000000;
+    // --color-secondary-contrast-rgb: 0, 0, 0;
+    // --color-secondary-shade: #aca4e0;
+    // --color-secondary-tint: #c9c1ff;
+    --color-primary: #313131;
+    --color-primary-rgb: 49, 49, 49;
+    --color-primary-contrast: #ffffff;
+    --color-primary-contrast-rgb: 255, 255, 255;
+    --color-primary-shade: #2b2b2b;
+    --color-primary-tint: #464646;
+    --color-secondary: #5c4a81;
+    --color-secondary-rgb: 92, 74, 129;
+    --color-secondary-contrast: #ffffff;
+    --color-secondary-contrast-rgb: 255, 255, 255;
+    --color-secondary-shade: #514172;
+    --color-secondary-tint: #6c5c8e;
     }
 }
 
