@@ -199,7 +199,7 @@ export const projects = [
   {
     id: 5,
     title: "Blue Alert",
-    client: "Nuevo León",
+    client: "Tigres Hack 2022",
     brief:
       "An application that optimizes police resources by means of reports from active citizens who seek to improve security in the state of Nuevo León.",
     contributions: [
@@ -285,13 +285,13 @@ export const projects = [
   {
     id: 7,
     title: "Valley",
-    client: "CEMEX",
+    client: "",
     brief:
-      "Designed a web platform to improve the performance of software developers at CEMEX through gamification, resulting in increased number of tests applied to code and improved KPIs.",
+      "Designed a web platform to improve the performance of software developers at the company through gamification, resulting in increased number of tests applied to code and improved KPIs.",
     contributions: [
       "Created a proof of concept gamification process using actual data to impact 11 areas in the company.",
       "Developed a web platform with Bootstrap 4, JavaScript, NodeJS, and SQL Server.",
-      'Integrated a video game "Cemex Valley" into the work of software developers to make the process more engaging.',
+      'Integrated a video game "Valley" into the work of software developers to make the process more engaging.',
       "Enabled administrators to monitor developer performance.",
     ],
     notes: [
@@ -383,11 +383,11 @@ export const projects = [
   {
     id: 9,
     title: "Questions",
-    client: "Wizeline",
+    client: "",
     brief:
-      "Redesigned an internal web forum application for Wizeline, improving communication and reducing unanswered and repeated questions.",
+      "Redesigned an internal web forum application for the company, improving communication and reducing unanswered and repeated questions.",
     contributions: [
-      "Led the redesign of Wizeline's internal web forum, streamlining communication and enhancing the user experience.",
+      "Led the redesign of the company's internal web forum, streamlining communication and enhancing the user experience.",
       "Implemented a feature to detect similar questions and integrated the Grammarly API to prevent rudeness in questions and answers.",
       "Added a category input for tagging questions to specific departments.",
     ],
@@ -426,7 +426,7 @@ export const projects = [
   {
     id: 10,
     title: "SaleVale",
-    client: "Softtek",
+    client: "",
     brief:
       "An application designed to help users manage their credit line, cuts, and requests with real-time information and tools.",
     contributions: [
@@ -474,9 +474,9 @@ export const projects = [
   {
     id: 11,
     title: "BanorTec UI Replicate",
-    client: "Softtek",
+    client: "",
     brief:
-      "The BanorTec UI Replicate project was a challenge to replicate the interface of the BanorTec application with the aim of checking the speed of development with reusable code from the SaleVale project.",
+      "The BanorTec UI Replicate project was a challenge to replicate the interface of the BanorTec application.",
     contributions: [
       "Developed the main sections of the app",
       "Created reusable components for future projects",
