@@ -14,29 +14,21 @@ const Projects = () => {
     "All",
     "Web",
     "Mobile",
-    "Multiplatform",
     "Videogames",
     "Front-End",
     "Back-End",
     "React.js",
-    "Angular",
     "Flutter",
     "HTML",
     "JavaScript",
     "TypeScript",
-    "Android",
     "Firebase",
-    "MongoDB",
-    "PostgreSQL",
-    "Node.js",
     "Unity",
-    "Responsive Design",
-    "UI/UX Design"
   ];
   /**
    * @type {ProjectCard[]}
    */
-  
+
   return (
     <div className="projects__container">
       <h1 className="projects__title">Showcase</h1>

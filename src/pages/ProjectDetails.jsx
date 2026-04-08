@@ -262,15 +262,19 @@ const ProjectDetails = () => {
           }
         })}
       </ul>
-      <h2 className="text_align_center">Notes</h2>
-      <hr />
-      <ul>
-        {projects[id].notes.map((note) => {
-          return <li key={note}>{note}</li>;
-        })}
-      </ul>
-      <h2 className="text_align_center projects_details__links_title">Links</h2>
-      <hr />
+      {projects[id].notes.length > 0 
+      ? <><h2 className="text_align_center">Notes</h2><hr /><ul>
+          {projects[id].notes.map((note) => {
+            return <li key={note}>{note}</li>;
+          })}
+        </ul></>
+      : <></>
+    }
+      {
+      (projects[id].links != [] && projects[id].github != "") ?? <>
+      <h2 className="text_align_center projects_details__links_title">Links</h2><hr />
+      </>
+      }
       <div className="projects_details__links">
         {projects[id].github && projects[id].github != "" && (
           <div className="social_media_button__wrapper">
